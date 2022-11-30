@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec573c6a-5976-40ea-858f-8883b59be7c9" name="Changes" comment="">
+    <list default="true" id="ec573c6a-5976-40ea-858f-8883b59be7c9" name="Changes" comment="temp">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-interface/api/interface/v1/interface.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/kratos-develop.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kratos-develop.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-interface/api/helloworld/v1/error_reason.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/api/interface/v1/error_reason.pb.go" afterDir="false" />
@@ -92,6 +94,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="temp" />
+    <option name="LAST_COMMIT_MESSAGE" value="temp" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

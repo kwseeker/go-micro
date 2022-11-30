@@ -7,14 +7,17 @@
 package main
 
 import (
+	"github.com/go-kratos/kratos/v2"
+	"github.com/go-kratos/kratos/v2/log"
 	"mall-interface/internal/biz"
 	"mall-interface/internal/conf"
 	"mall-interface/internal/data"
 	"mall-interface/internal/server"
 	"mall-interface/internal/service"
+)
 
-	"github.com/go-kratos/kratos/v2"
-	"github.com/go-kratos/kratos/v2/log"
+import (
+	_ "go.uber.org/automaxprocs"
 )
 
 // Injectors from wire.go:

@@ -1,7 +1,7 @@
 package server
 
 import (
-	v1 "mall-interface/api/helloworld/v1"
+	v1 "mall-interface/api/interface/v1"
 	"mall-interface/internal/conf"
 	"mall-interface/internal/service"
 

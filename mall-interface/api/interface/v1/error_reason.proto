@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+//.photo的包名，用于防止不同消息类型的命名冲突
+package interface.v1;
+
+//生成.pb.go文件所在包路径; 生成.pb.go文件的package
+option go_package = "mall-interface/api/interface/v1;v1";
+//编译成.java文件相关
+option java_multiple_files = true;
+option java_package = "interface.v1";
+//设置Objective-C类的前缀
+option objc_class_prefix = "APIInterfaceV1";
+
+enum ErrorReason {
+  USER_NOT_FOUND = 0;
+  CONTENT_MISSING = 1;
+}
+
+//enum ErrorReason {
+//  option (errors.default_code) = 500;
+//
+//  USER_NOT_FOUND = 0 [(errors.code) = 404];
+//  CONTENT_MISSING = 1 [(errors.code) = 400];
+//}

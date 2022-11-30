@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	v1 "mall-interface/api/helloworld/v1"
+	v1 "mall-interface/api/interface/v1"
 	"mall-interface/internal/biz"
 )
 
@@ -19,7 +19,7 @@ func NewGreeterService(uc *biz.GreeterUsecase) *GreeterService {
 	return &GreeterService{uc: uc}
 }
 
-// SayHello implements helloworld.GreeterServer.
+// SayHello implements interface.GreeterServer.
 func (s *GreeterService) SayHello(ctx context.Context, in *v1.HelloRequest) (*v1.HelloReply, error) {
 	g, err := s.uc.CreateGreeter(ctx, &biz.Greeter{Hello: in.Name})
 	if err != nil {

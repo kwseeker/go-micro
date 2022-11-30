@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec573c6a-5976-40ea-858f-8883b59be7c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/kratos-develop.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kratos-develop.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-interface/api/helloworld/v1/error_reason.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/api/interface/v1/error_reason.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-interface/api/helloworld/v1/error_reason.proto" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/api/interface/v1/error_reason.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-interface/api/helloworld/v1/greeter.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/api/interface/v1/greeter.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-interface/api/helloworld/v1/greeter.proto" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/api/interface/v1/greeter.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-interface/api/helloworld/v1/greeter_grpc.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/api/interface/v1/greeter_grpc.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-interface/api/helloworld/v1/greeter_http.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/api/interface/v1/greeter_http.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-interface/cmd/mall-interface/wire_gen.go" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/cmd/mall-interface/wire_gen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-interface/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-interface/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-interface/internal/biz/greeter.go" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/internal/biz/greeter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-interface/internal/server/grpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/internal/server/grpc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-interface/internal/server/http.go" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/internal/server/http.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-interface/internal/service/greeter.go" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/internal/service/greeter.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IEBUdABRbxaBjyM2Q1IRcg99ze" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+    <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build mall-interface/cmd/mall-interface" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-micro" />
+      <working_directory value="$PROJECT_DIR$/mall-interface" />
+      <kind value="PACKAGE" />
+      <package value="mall-interface/cmd/mall-interface" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/mall-interface/cmd/mall-interface/main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build mall-interface/cmd/mall-interface" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>

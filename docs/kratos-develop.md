@@ -46,7 +46,25 @@ kratos new mall-admin
 
 # 目录建好后下载下依赖
 go mod download / tidy
+# 生成proto源码、wire等
+go generate ./...
+# 启动项目
+kratos run
+# 测试接口
+curl 'http://127.0.0.1:8000/helloworld/kratos'
+```
 
+GoLand调试：
+
+```text
+# 添加Go Build 配置, 比如：
+Name： mall-interface
+Run kind: Package
+Package path: mall-interface/cmd/mall-interface
+Run after build
+Working directory: /home/lee/mywork/go/micro-service/go-micro/mall-interface
+Program arguments: -conf $FileDir$
+Module: go-micro
 ```
 
 
